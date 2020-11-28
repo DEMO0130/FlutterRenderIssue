@@ -21,21 +21,21 @@
     
     UILabel *regularLabel = ({
         UILabel *lbl = [[UILabel alloc] init];
-        lbl.text = @"qwertyuiopasdfghjklzxcvbnm";
+        lbl.text = @"regular: qwertyuiopasdfghjklzxcvbnm";
         lbl.font = [UIFont ct_fontWithName:@"PolarisRegular" size:16];
         lbl;
     });
     
     UILabel *meduimLabel = ({
         UILabel *lbl = [[UILabel alloc] init];
-        lbl.text = @"qwertyuiopasdfghjklzxcvbnm";
+        lbl.text = @"medium: qwertyuiopasdfghjklzxcvbnm";
         lbl.font = [UIFont ct_fontWithName:@"PolarisMedium" size:16];
         lbl;
     });
     
     UILabel *boldLabel = ({
         UILabel *lbl = [[UILabel alloc] init];
-        lbl.text = @"qwertyuiopasdfghjklzxcvbnm";
+        lbl.text = @"bold: qwertyuiopasdfghjklzxcvbnm";
         lbl.font = [UIFont ct_fontWithName:@"PolarisBold" size:16];
         lbl;
     });

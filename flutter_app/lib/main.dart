@@ -98,10 +98,10 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'g You have pushed the button this many times:',
+              'regular: g You have pushed the button this many times:',
             ),
             Text(
-              'g You have pushed the button this many times:',
+              'regular: g You have pushed the button this many times:',
               style: TextStyle(
                 fontSize:16,
                 color: Colors.black,
@@ -109,7 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             Text(
-              'g You have pushed the button this many times:',
+              'medium: g You have pushed the button this many times:',
               style: TextStyle(
                 fontSize:16,
                 color: Colors.black,
@@ -118,7 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
 
             Text(
-              'g You have pushed the button this many times:',
+              'bold: g You have pushed the button this many times:',
               style: TextStyle(
                 fontSize:16,
                 color: Colors.black,
